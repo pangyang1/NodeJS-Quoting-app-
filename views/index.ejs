@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QuotingDojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Welcome to QuotingDojo!</h1>
+        <div id="form">
+            <form action="/quotes" method="POST">
+                <h3>Your name: <input type="text" name="name" id="nameInput"></h3>
+                <h3>Your quote: <textarea name="quote" id="quoteTextArea" cols="30" rows="10"></textarea></h3>
+                <input type="submit" value="Submit">
+                <button id="skipButton"><a href="/quotes">Skip to quotes!</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
